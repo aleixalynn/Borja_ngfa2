@@ -1,0 +1,44 @@
+*{margin: 0px; padding: 0px;}
+.navbar{
+    margin: 5px; 
+    padding: 15px; 
+    border: 1px solid black; 
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    background-color: black;
+}
+
+#links{
+    display: inline;
+}
+
+#links a {
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid black;
+    background-color: rgb(244, 238, 224);
+    opacity: .55;
+    transition: .4s;
+}
+
+#links a:hover{
+    opacity: 1;
+    transition: .4s;
+}
+
+.banner{
+    background-image: url(car.jpg);
+    height: 128px;
+    position: relative;
+}
+
+.banner a{
+    position: absolute;
+    padding: 3px;
+    background-color: aliceblue;
+    border: 1px solid white;
+    right: 50%;
+    bottom: 50%;
+}
